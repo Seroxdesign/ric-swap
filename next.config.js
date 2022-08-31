@@ -3,7 +3,7 @@ const withTM = require('next-transpile-modules')(['@lifi/widget']);
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: false,
 };
 
 // Please declare withTM as your last plugin (the outermost one)
